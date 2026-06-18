@@ -1,10 +1,17 @@
 from __future__ import annotations
+from dataclasses import dataclass
 from typing import Literal, Optional, TypedDict
 from pydantic import BaseModel, Field
 
 class ContextChunk(BaseModel):
     title: str
     text: str
+
+@dataclass
+class CallUsage:
+    """Token + latency thực tế của MỘT lần gọi LLM (hoặc giả lập từ mock)."""
+    token_estimate: int = 0
+    latency_ms: int = 0
 
 class QAExample(BaseModel):
     qid: str
@@ -14,12 +21,17 @@ class QAExample(BaseModel):
     context: list[ContextChunk]
 
 class JudgeResult(BaseModel):
-    # TODO: Học viên định nghĩa các trường cần thiết cho kết quả đánh giá (score, reason, ...)
-    pass
+    score: int = Field(ge=0, le=1, description="1 nếu đúng, 0 nếu sai")
+    reason: str = Field(description="Giải thích ngắn vì sao đúng/sai")
+    missing_evidence: list[str] = Field(default_factory=list, description="Bằng chứng còn thiếu để trả lời đúng")
+    spurious_claims: list[str] = Field(default_factory=list, description="Khẳng định sai/thừa trong câu trả lời")
+    failure_mode: Optional[Literal["entity_drift", "incomplete_multi_hop", "wrong_final_answer"]] = None
 
 class ReflectionEntry(BaseModel):
-    # TODO: Học viên định nghĩa các trường cần thiết cho một mục reflection (attempt_id, lesson, strategy, ...)
-    pass
+    attempt_id: int = Field(description="Lần thử đã thất bại")
+    failure_reason: str = Field(description="Vì sao lần thử này sai")
+    lesson: str = Field(description="Bài học rút ra")
+    next_strategy: str = Field(description="Chiến thuật cụ thể cho lần thử sau")
 
 class AttemptTrace(BaseModel):
     attempt_id: int

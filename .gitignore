@@ -9,3 +9,5 @@ env/
 .pytest_cache/
 outputs/
 .DS_Store
+# File HotpotQA thô (45MB) - khong commit, chi giu ban da convert trong data/
+hotpot_dev_distractor_v1.json

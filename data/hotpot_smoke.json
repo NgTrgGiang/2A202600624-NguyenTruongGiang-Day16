@@ -1,0 +1,82 @@
+[
+  {
+    "qid": "5ae143ed55429920d5234360",
+    "difficulty": "hard",
+    "question": "In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?",
+    "gold_answer": "1755",
+    "context": [
+      {
+        "title": "Moscow State University",
+        "text": "Lomonosov Moscow State University (MSU; Russian: Московский государственный университет имени М.  В.  Ломоносова , often abbreviated МГУ) is a coeducational and public research university located in Moscow, Russia.  It was founded on January 25, 1755 by Mikhail Lomonosov.  MSU was renamed after Lomonosov in 1940 and was then known as \"Lomonosov University\".  It also houses the tallest educational building in the world.  It is rated among the universities with the best reputation in the world.  Its current rector is Viktor Sadovnichiy."
+      },
+      {
+        "title": "Sergei Aleksandrovich Tokarev",
+        "text": "Sergei Aleksandrovich Tokarev (Russian: Серге́й Алекса́ндрович То́карев , 29 December 1899 – 19 April 1985) was a Russian scholar, ethnographer, historian, researcher of religious beliefs, doctor of historical sciences, and professor at Moscow State University."
+      }
+    ]
+  },
+  {
+    "qid": "5abc19705542993a06baf86e",
+    "difficulty": "hard",
+    "question": "Black Book starred the actress and writer of what heritage?",
+    "gold_answer": "Dutch",
+    "context": [
+      {
+        "title": "Black Book (film)",
+        "text": "Black Book (Dutch: Zwartboek ) is a 2006 Dutch thriller film co-written and directed by Paul Verhoeven and starring Carice van Houten, Sebastian Koch, Thom Hoffman, and Halina Reijn.  The film, credited as based on several true events and characters, is about a young Jewish woman in the Netherlands who becomes a spy for the resistance during World War II after tragedy befalls her in an encounter with the Nazis.  The film had its world premiere on 1 September 2006 at the Venice Film Festival and its public release on 14 September 2006 in the Netherlands.  It is the first film that Verhoeven made in the Netherlands since \"The Fourth Man,\" made in 1983 before he moved to the United States."
+      },
+      {
+        "title": "Halina Reijn",
+        "text": "Halina Reijn (born 10 November 1975) is a Dutch actress and writer."
+      }
+    ]
+  },
+  {
+    "qid": "5ac3e0f7554299194317388b",
+    "difficulty": "hard",
+    "question": "Which actor does American Beauty and American Beauty have in common?",
+    "gold_answer": "Kevin Spacey",
+    "context": [
+      {
+        "title": "American Beauty (1999 film)",
+        "text": "American Beauty is a 1999 American drama film directed by Sam Mendes and written by Alan Ball.  Kevin Spacey stars as Lester Burnham, a 42-year-old advertising executive who has a midlife crisis when he becomes infatuated with his teenage daughter's best friend, Angela (Mena Suvari).  Annette Bening co-stars as Lester's materialistic wife, Carolyn, and Thora Birch plays their insecure daughter, Jane.  Wes Bentley, Chris Cooper, and Allison Janney also feature.  The film is described by academics as a satire of American middle-class notions of beauty and personal satisfaction; analysis has focused on the film's explorations of romantic, and paternal love, sexuality, beauty, materialism, self-liberation, and redemption."
+      },
+      {
+        "title": "American Beauty (soundtrack)",
+        "text": "American Beauty: Music from the Original Motion Picture Soundtrack is the soundtrack album to the 1999 film starring Kevin Spacey and Annette Bening."
+      }
+    ]
+  },
+  {
+    "qid": "5ae518655542993aec5ec139",
+    "difficulty": "hard",
+    "question": "Ken Pruitt  was a Republican member of an upper house of the legislature with how many members ?",
+    "gold_answer": "40 members",
+    "context": [
+      {
+        "title": "Florida Senate",
+        "text": "The Florida Senate is the upper house of the legislature of the U.S. state of Florida.  Along with the House of Representatives, it composes the Florida Legislature.  The Senate has 40 members, each elected from a single-member district with a population of about 470,000.  The Senate meets at the State Capitol in Tallahassee."
+      },
+      {
+        "title": "Ken Pruitt",
+        "text": "Ken Pruitt (born January 24, 1957) was a Republican member of the Florida Senate, representing the 28th District from 2000 to 2009.  His district includes portions of Indian River, Martin, Okeechobee, Palm Beach and St. Lucie Counties.  He was previously a member of the Florida House of Representatives from 1990 through 2000."
+      }
+    ]
+  },
+  {
+    "qid": "5ab985eb554299131ca42360",
+    "difficulty": "hard",
+    "question": "Between Greyia and Calibanus, which genus contains more species?",
+    "gold_answer": "Greyia",
+    "context": [
+      {
+        "title": "Greyia",
+        "text": "Greyia is a genus of plant in family Melianthaceae.  It contains three species:"
+      },
+      {
+        "title": "Calibanus",
+        "text": "Calibanus is a genus of two species of flowering plants, both evergreen succulents from dry areas of northeastern Mexico.  The APG III classification system places it in the family Asparagaceae, subfamily Nolinoideae (formerly the family Ruscaceae. )  It was formerly included in the Agavaceae (now Agavoideae) but is now separated from them, for it is polycarpic and dioecious.  Its name refers to the monster Caliban, an antagonist in Shakespeare's \"The Tempest\"."
+      }
+    ]
+  }
+]
